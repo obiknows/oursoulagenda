@@ -1,5 +1,7 @@
 const path = require('path');
 const _ = require('lodash');
+const { createFilePath } = require(`gatsby-source-filesystem`)
+
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
@@ -13,17 +15,26 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       const { permalink, layout, primaryTag } = node.frontmatter;
       const { relativePath } = getNode(node.parent);
 
-      let slug = permalink;
+      let slug = `/blog` + createFilePath({ node, getNode, basePath: `src/content` });
+      // let slug = `/blog/${permalink}`;
 
-      if (!slug) {
-        slug = `/${relativePath.replace('.md', '')}/`;
-      }
+      // if (!permalink) {
+      //   console.log('create a permalink');
+
+      //   slug = `/blog` + createFilePath({ node, getNode, basePath: `src/content` })
+      //   console.log(`created a slug in the permalink: ${slug}`);
+      // }
+
+      // if (!slug) {
+      console.log(`create a slug: ${slug}`);
+      //   // slug = `/blog/${relativePath.replace('.md', '')}/`;
+      // }
 
       // Used to generate URL to view this content.
       createNodeField({
         node,
         name: 'slug',
-        value: slug || '',
+        value: `${slug}` || '',
       });
 
       // Used to determine a page layout.
@@ -117,7 +128,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? '/' : `/${i + 1}`,
+      path: i === 0 ? '/blog' : `/blog/${i + 1}`,
       component: path.resolve('./src/templates/index.tsx'),
       context: {
         limit: postsPerPage,
@@ -132,6 +143,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const { slug, layout } = node.fields;
     const prev = index === 0 ? null : posts[index - 1].node;
     const next = index === posts.length - 1 ? null : posts[index + 1].node;
+    console.log(`The slug is : ${slug}`);
 
     createPage({
       path: slug,
@@ -166,7 +178,8 @@ exports.createPages = async ({ graphql, actions }) => {
   );
   tags.forEach(tag => {
     createPage({
-      path: `/tags/${_.kebabCase(tag)}/`,
+      // path: `/tags/${_.kebabCase(tag)}/`,
+      path: `/blog/tags/${_.kebabCase(tag)}/`,
       component: tagTemplate,
       context: {
         tag,
@@ -178,7 +191,8 @@ exports.createPages = async ({ graphql, actions }) => {
   const authorTemplate = path.resolve('./src/templates/author.tsx');
   result.data.allAuthorYaml.edges.forEach(edge => {
     createPage({
-      path: `/author/${_.kebabCase(edge.node.id)}/`,
+      // path: `/author/${_.kebabCase(edge.node.id)}/`,
+      path: `/blog/author/${_.kebabCase(edge.node.id)}/`,
       component: authorTemplate,
       context: {
         author: edge.node.id,

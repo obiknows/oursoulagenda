@@ -50,9 +50,10 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Our Soul Agenda',
-  description: 'The professional publishing platform',
+  description: 'All things health, wealth, travel and in-between',
   coverImage: 'img/blog-cover.jpg',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/soul-globe.png',
+  // logo: 'img/ghost-logo.png',
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
   facebook: 'https://www.facebook.com/ghost',
@@ -62,7 +63,7 @@ const config: WebsiteConfig = {
   mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
   mailchimpEmailFieldName: 'MERGE0',
   googleSiteVerification: 'GoogleCode',
-  footer: 'is based on Gatsby Casper',
+  footer: 'is dedicated to our people and the community',
 };
 
 export default config;

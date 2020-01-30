@@ -286,7 +286,7 @@ const GlobalStyles = css`
 
   ::selection {
     text-shadow: none;
-    background: ${lighten('0.3', colors.blue)};
+    background: ${lighten('0.3', colors.gold)};
   }
 
   hr {
@@ -404,7 +404,7 @@ const GlobalStyles = css`
   }
 
   a {
-    color: ${darken('0.05', colors.blue)};
+    color: ${darken('0.05', colors.gold)};
     text-decoration: none;
   }
 

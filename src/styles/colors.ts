@@ -3,6 +3,7 @@ export const colors = {
   green: '#a4d037',
   purple: '#ad26b4',
   yellow: '#fecd35',
+  gold: '#fec502',
   red: '#f05230',
   darkgrey: '#15171A',
   midgrey: '#738a94',

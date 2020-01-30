@@ -72,7 +72,7 @@ const PostFullMeta = styled.section`
 `;
 
 const PostFullMetaDate = styled.time`
-  color: ${colors.blue};
+  color: ${colors.gold};
 `;
 
 export const PostFullTitle = styled.h1`

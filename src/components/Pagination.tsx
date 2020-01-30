@@ -50,7 +50,7 @@ const navCss = css`
 const Pagination: React.FunctionComponent<PaginationProps> = ({ currentPage, numPages }) => {
   const isFirst = currentPage === 1;
   const isLast = currentPage === numPages;
-  const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString();
+  const prevPage = currentPage - 1 === 1 ? '/blog' : (currentPage - 1).toString();
   const nextPage = (currentPage + 1).toString();
 
   return (
@@ -64,7 +64,7 @@ const Pagination: React.FunctionComponent<PaginationProps> = ({ currentPage, num
         )}
 
         {Array.from({ length: numPages }, (_, i) => (
-          <Link key={`pagination-number${i + 1}`} className={i + 1 === currentPage ? 'active' : ''} to={`/${i === 0 ? '' : i + 1}`}>
+          <Link key={`pagination-number${i + 1}`} className={i + 1 === currentPage ? 'active' : ''} to={`/blog/${i === 0 ? '' : i + 1}`}>
             {i + 1}
           </Link>
         ))}

@@ -3,13 +3,33 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     title: 'Our Soul Agenda',
+    description: `Sharing life lessons to help you step into your power.`,
     description: 'The professional publishing platform',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    siteUrl: 'https://oursoulagenda.com', // full path to blog - no ending slash
+    author: `@itsobinna`,
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-156587076-1',
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // IP anonymization for GDPR compliance
+        anonymize: true,
+        // Disable analytics for users with `Do Not Track` enabled
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ['/preview/**'],
+        // Specifies what percentage of users should be tracked
+        sampleRate: 100,
+        // Determines how often site speed tracking beacons will be sent
+        siteSpeedSampleRate: 10,
+      },
+    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-sharp',
     {
@@ -17,6 +37,15 @@ module.exports = {
       options: {
         name: 'content',
         path: path.join(__dirname, 'src', 'content'),
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, 'src', 'images'),
+        // path: `${__dirname}/src/images`,
+        // path: `${__dirname}/src/images`,
       },
     },
     {
@@ -47,7 +76,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://outsoucom',
       },
     },
     'gatsby-plugin-emotion',
@@ -62,23 +91,6 @@ module.exports = {
         postCssPlugins: [require('postcss-color-function'), require('cssnano')()],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-XXXX-Y',
-        // Puts tracking script in the head instead of the body
-        head: true,
-        // IP anonymization for GDPR compliance
-        anonymize: true,
-        // Disable analytics for users with `Do Not Track` enabled
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: ['/preview/**'],
-        // Specifies what percentage of users should be tracked
-        sampleRate: 100,
-        // Determines how often site speed tracking beacons will be sent
-        siteSpeedSampleRate: 10,
-      },
-    },
+
   ],
 };

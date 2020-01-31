@@ -197,7 +197,6 @@ export interface PostCardProps {
 }
 
 const PostCard: React.FC<PostCardProps> = ({ post }) => {
-  console.log('this the post: ', post);
 
   return (
     <article

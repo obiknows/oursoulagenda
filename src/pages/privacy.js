@@ -1,9 +1,9 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import Header from "../components/header"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Header from "../components/site/header"
+import Layout from "../components/site/layout"
+import SEO from "../components/site/seo"
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 

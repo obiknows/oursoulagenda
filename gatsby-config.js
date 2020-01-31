@@ -1,4 +1,7 @@
 const path = require('path');
+require("dotenv").config({
+  path: `.env`,
+})
 
 module.exports = {
   siteMetadata: {
@@ -91,6 +94,31 @@ module.exports = {
         postCssPlugins: [require('postcss-color-function'), require('cssnano')()],
       },
     },
-
+    // Youtube Gatsby Plugin
+    {
+      resolve: `gatsby-source-youtube-v2`,
+      options: {
+        channelId: ["UC14DDaQZouxfsTxHhXxF0sg"], // https://www.youtube.com/channel/UC14DDaQZouxfsTxHhXxF0sg
+        apiKey: process.env.YOUTUBE_API_KEY, // HIDE this
+        maxVideos: 10, // Defaults to 50
+      },
+    },
+    // WEB FONT LOADER
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Lalezar']
+        }
+      }
+    },
+    // TAWK TO
+    {
+      resolve: `gatsby-plugin-tawk`,
+      options: {
+        tawkId: "5e24ba228e78b86ed8aa11f4",
+        // get this from the tawk script widget
+      },
+    },
   ],
 };

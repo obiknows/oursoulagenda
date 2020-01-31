@@ -1,10 +1,10 @@
 import React from "react"
 
-import Header from "../components/header"
+import Header from "../components/site/header"
 // import BackHomeButton from "../components/backhomebutton"
-import TitleHeader from "../components/titleheader"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import TitleHeader from "../components/site/titleheader"
+import Layout from "../components/site/layout"
+import SEO from "../components/site/seo"
 
 const Contact = () => (
   <>

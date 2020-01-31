@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-// import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 // import { useStaticQuery, graphql } from "gatsby"
 
@@ -42,7 +42,7 @@ const Layout = ({ children}) => {
         <h6>
         © {new Date().getFullYear()}, Built by
         {` `}
-        {/* <OutboundLink href="https://instagram.com/itsobinna">Obinna</OutboundLink> & */}
+        <OutboundLink href="https://instagram.com/itsobinna">Obinna</OutboundLink> &
         {` `}
         Our Soul Agenda, All Rights Reserved
         </h6>

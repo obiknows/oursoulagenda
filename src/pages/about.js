@@ -1,16 +1,16 @@
 import React from "react"
 
-import Header from "../components/header"
+import Header from "../components/site/header"
 // import BackHomeButton from "../components/backhomebutton"
-import TitleHeader from "../components/titleheader"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import TitleHeader from "../components/site/titleheader"
+import Layout from "../components/site/layout"
+import SEO from "../components/site/seo"
 
 const About = () => (
   <>
   <Header />
   <Layout>
-    <SEO title="About Us" />
+    {/* <SEO title="About Us" /> */}
     <div style={{color:'white', lineHeight: 1.55, marginTop: 40,}}>
       <TitleHeader title="About Us"/>
       <h3>

@@ -1,11 +1,11 @@
 import React from "react"
-import styled from "styled-components"
+import styled from "@emotion/styled"
 
-import Header from "../components/header"
+import Header from "../components/site/header"
 // import BackHomeButton from "../components/backhomebutton"
-import TitleHeader from "../components/titleheader"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import TitleHeader from "../components/site/titleheader"
+import Layout from "../components/site/layout"
+import SEO from "../components/site/seo"
 
 // FAV IMG IMPORTS
 import DJICameraPhoto from '../images/our-faves/dji-camera.jpg'
@@ -67,7 +67,7 @@ var favItems = [
 
 
 const OurFaves = () => {
-  
+
   // Build the fav Items list
   var favItemsList = favItems.map(item => {
     return (
@@ -93,7 +93,7 @@ const OurFaves = () => {
           {/* SERVICE TAB LIST */}
           <>
             <FavListContainer>
-              {favItemsList} 
+              {favItemsList}
             </FavListContainer>
           </>
           {/* SERVICE TAB LIST  -- END*/}
@@ -116,7 +116,7 @@ const FavListContainer = styled.div`
   @media screen and (max-width: 768px) and (min-width: 500px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   @media screen and (max-width: 500px) {
     grid-template-columns: repeat(1, 1fr);
   }

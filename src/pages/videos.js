@@ -1,13 +1,13 @@
 import React from "react"
 import Helmet from "react-helmet"
-import styled from "styled-components"
+import styled from "@emotion/styled"
 import { useStaticQuery, graphql, withPrefix } from "gatsby"
 
-import Header from "../components/header"
+import Header from "../components/site/header"
 // import BackHomeButton from "../components/backhomebutton"
-import TitleHeader from "../components/titleheader"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import TitleHeader from "../components/site/titleheader"
+import Layout from "../components/site/layout"
+import SEO from "../components/site/seo"
 
 const Videos = () => {
 
@@ -35,10 +35,10 @@ const Videos = () => {
     /*
       data.node is in form:
       { id: '<string>', title: '<string>', description: '<string>', videoId: '<string>', publishedAt: '<string DateTime obj>', }
-    */ 
+    */
     videos.push(data.node)
   });
-  
+
   // Build the videos list
   var videosList = videos.map(video => {
     return (
@@ -59,7 +59,7 @@ const Videos = () => {
         <Helmet>
           <script src={withPrefix("yt-platform.js")} />
         </Helmet>
-        <div style={{ color: "white", marginTop: 40, }}>
+        <div style={{ color: "white", marginTop: 40, textAlign: 'center' }}>
           <TitleHeader title="Videos" />
           <h3>Check out some of our most recent flicks.</h3>
           <h3>Oh yeah and don't forget to <span style={{color:'#FEC502'}}>subscribe below</span>.</h3>
@@ -104,9 +104,6 @@ const VideoContainer = styled.div`
     position:absolute;
   }
 `
-
-// const VideoContainer = styled.div``
-// const VideoContainer = styled.div``
 
 
 export default Videos

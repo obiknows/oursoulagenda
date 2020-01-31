@@ -1,12 +1,12 @@
 /* eslint-disable import/first */
 import React from "react"
-import styled from "styled-components"
+import styled from "@emotion/styled"
 
-import Header from "../components/header"
+import Header from "../components/site/header"
 // import BackHomeButton from "../components/backhomebutton"
-import TitleHeader from "../components/titleheader"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import TitleHeader from "../components/site/titleheader"
+import Layout from "../components/site/layout"
+import SEO from "../components/site/seo"
 
 // Logos
 import YouTubeLogo from "../images/social/yt-logo.png"
@@ -117,7 +117,7 @@ const ServiceListContainer = styled.div`
     grid-template-columns: 1fr;
     // grid-template-columns: repeat(2, 1fr);
   }
-  
+
   @media screen and (max-width: 500px) {
     grid-template-columns: 1fr;
     // grid-template-columns: repeat(1, 1fr);
@@ -139,7 +139,7 @@ const ServiceListItem = styled.div`
   @media screen and (max-width: 768px) and (min-width: 500px) {
     grid-template-columns: 1fr;
   }
-  
+
   @media screen and (max-width: 500px) {
     grid-template-columns: 1fr;
   }
@@ -149,7 +149,7 @@ const ServiceListItemDescription = styled.div`
   @media screen and (max-width: 768px) and (min-width: 500px) {
     margin-top: 5%;
   }
-  
+
   @media screen and (max-width: 500px) {
     margin-top: 5%;
   }
@@ -170,7 +170,7 @@ const ServiceListItemInverted = styled.div`
   @media screen and (max-width: 768px) and (min-width: 500px) {
     grid-template-columns: 1fr;
   }
-  
+
   @media screen and (max-width: 500px) {
     grid-template-columns: 1fr;
   }
@@ -181,7 +181,7 @@ const ServiceListItemInvertedDescription = styled.div`
     margin-top: 5%;
     order: 2;
   }
-  
+
   @media screen and (max-width: 500px) {
     margin-top: 5%;
     order: 2;
@@ -191,7 +191,7 @@ const ServiceListItemInvertedImage = styled.div`
   @media screen and (max-width: 768px) and (min-width: 500px) {
     order: 1;
   }
-  
+
   @media screen and (max-width: 500px) {
     order: 1;
   }
@@ -203,8 +203,8 @@ const ServiceListItemHeader = styled.h1`
 `
 
 const PriceContainer = styled.div`
-  // width: min-content; 
-  width: max-content; 
+  // width: min-content;
+  width: max-content;
   margin-left: auto;
   margin-right: auto;
   background-color: #FEC502;

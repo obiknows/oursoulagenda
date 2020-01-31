@@ -3,11 +3,11 @@ import Helmet from "react-helmet"
 import { withPrefix } from "gatsby"
 
 
-import Header from "../components/header"
+import Header from "../components/site/header"
 // import BackHomeButton from "../components/backhomebutton"
-import TitleHeader from "../components/titleheader"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import TitleHeader from "../components/site/titleheader"
+import Layout from "../components/site/layout"
+import SEO from "../components/site/seo"
 
 const SupportUs = () => (
   <>
@@ -41,7 +41,7 @@ const SupportUs = () => (
                 Donate with Patreon
               </a>
             </div>
-            
+
           </div>
           {/* 2. Paypal */}
           <div style={{marginBottom: 40, textAlign: 'center'}}>

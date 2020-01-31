@@ -9,7 +9,7 @@ const Terms = () => (
   <>
   <Header/>
   <Layout id="terms">
-    {/* <SEO title="Terms and Conditions" /> */}
+    <SEO title="Terms and Conditions" />
     <div style={{color: 'white', textAlign: 'center', marginTop: 40,}}>
       <h1>Terms and Conditions</h1>
 

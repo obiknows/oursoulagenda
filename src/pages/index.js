@@ -16,7 +16,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const IndexPage = () => (
   <Layout style={{marginTop: `2.22rem`}}>
-    {/* <SEO title="Home" description="" /> */}
+    <SEO title="Home" description="" />
     {/* SOUL GLOBE */}
     <SoulGlobe>
       <SoulGlobeImg style={{textAlign: 'center'}} />

@@ -10,7 +10,7 @@ const About = () => (
   <>
   <Header />
   <Layout>
-    {/* <SEO title="About Us" /> */}
+    <SEO title="About Us" />
     <div style={{color:'white', lineHeight: 1.55, marginTop: 40,}}>
       <TitleHeader title="About Us"/>
       <h3>

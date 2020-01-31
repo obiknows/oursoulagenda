@@ -8,7 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import Helmet from 'react-helmet';
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import favicon from '../../../src/favicon.ico';
 
 // import { useStaticQuery, graphql } from "gatsby"
 
@@ -27,6 +29,9 @@ const Layout = ({ children}) => {
 
   return (
     <>
+      <Helmet>
+        <link rel="icon" href={favicon} type="image/x-icon" />
+      </Helmet>
       <div
         style={{
           minHeight: `100vh`,

@@ -19,17 +19,17 @@ import VanLifeLogo from "../images/services/van-life.png"
 // Data list for our services
 var ourServices = [
   // YouTube Bundle
-  { id:1, name:'YouTube Bundle', img: YouTubeLogo, desc: 'Includes: A custom YouTube intro animation, a YouTube Banner graphic, and a pack of 5 YouTube Beats to use in your videos.', price: 'Buy Now - $149', category: 'Branding', },
+  { id:1, name:'YouTube Bundle', img: YouTubeLogo, desc: 'Includes: A custom YouTube intro animation, a YouTube Banner graphic, and a pack of 5 YouTube Beats to use in your videos.', price: 'Buy Now - $149', category: 'Branding', link: 'https://oursoulagenda.bigcartel.com/product/youtube-bundle'},
   // 15 Minute Clarity Call
-  { id:2, name:'15 Minute Clarity Call', img: ClarityCallLogo, desc: 'Need help but not sure where to start? Schedule a 15 minute clarity call with us to get clear on your next steps.', price: 'Schedule Now - FREE', category: 'Branding', },
+  { id:2, name:'15 Minute Clarity Call', img: ClarityCallLogo, desc: 'Need help but not sure where to start? Schedule a 15 minute clarity call with us to get clear on your next steps.', price: 'Schedule Now - FREE', category: 'Branding', link: 'https://calendly.com/oursoulagenda/claritycall'},
   // Idea Consultation (30 mins)
-  { id:3, name:'Idea Consultation', img: IdeaConsultLogo, desc:`Have an idea for an app, website or some other tech project. We'll show you how to get it done. Just schedule a 30 minute consultation and you'll be on the path to success.`, price: 'Schedule Now - $29', category: 'Branding', },
+  { id:3, name:'Idea Consultation', img: IdeaConsultLogo, desc:`Have an idea for an app, website or some other tech project. We'll show you how to get it done. Just schedule a 30 minute consultation and you'll be on the path to success.`, price: 'Schedule Now - $29', category: 'Branding', link: 'https://oursoulagenda.bigcartel.com/product/idea-consultation'},
   // Website (Sqaurespace)
-  { id:4, name:'Custom Website', img: WebsiteLogo, desc: `A successful brand needs a strong online presence. We'll create a custom website for your that will deepen your audiences' relationship with your brand and your story.`, price: 'Buy Now - $199', category: 'Branding', },
+  { id:4, name:'Custom Website', img: WebsiteLogo, desc: `A successful brand needs a strong online presence. We'll create a custom website for your that will deepen your audiences' relationship with your brand and your story.`, price: 'Buy Now - $199', category: 'Branding', link:'https://oursoulagenda.bigcartel.com/product/custom-website'},
   // Webstore (Sqaurespace/Shopify)
-  { id:5, name:'Custom Webstore', img: WebstoreLogo, desc: `Selling products or services? We'll create a custom webstore for you that will attract customers and provide them with a seamless shopping experience.`, price: 'Buy Now - $349', category: 'Branding', },
+  { id:5, name:'Custom Webstore', img: WebstoreLogo, desc: `Selling products or services? We'll create a custom webstore for you that will attract customers and provide them with a seamless shopping experience.`, price: 'Buy Now - $349', category: 'Branding', link: 'https://oursoulagenda.bigcartel.com/product/custom-webstore'},
   // Van Life Consultation (1 hour)
-  { id:6, name:'Van Life Consultation', img: VanLifeLogo, desc: `Thinking about transitioning to van life and want some help from people who are actually doing it? We'll answer your burning questions and provide you with crucial advice to make your journey smoother.`, price: 'Schedule Now - $59', category: 'Branding', },
+  { id:6, name:'Van Life Consultation', img: VanLifeLogo, desc: `Thinking about transitioning to van life and want some help from people who are actually doing it? We'll answer your burning questions and provide you with crucial advice to make your journey smoother.`, price: 'Schedule Now - $59', category: 'Branding', link: 'https://oursoulagenda.bigcartel.com/product/van-life-consultation'},
 ];
 
 
@@ -46,7 +46,9 @@ const Services = () => {
             <ServiceListItemHeader>{svc.name}</ServiceListItemHeader>
             <h4>{svc.desc}</h4>
             <PriceContainer>
-              <ServiceListItemPrice>{svc.price}</ServiceListItemPrice>
+              <a href={svc.link}>
+                <ServiceListItemPrice>{svc.price}</ServiceListItemPrice>
+              </a>
             </PriceContainer>
           </ServiceListItemInvertedDescription>
           {/* IMAGE */}
@@ -71,7 +73,9 @@ const Services = () => {
             <ServiceListItemHeader>{svc.name}</ServiceListItemHeader>
             <h4>{svc.desc}</h4>
             <PriceContainer>
-              <ServiceListItemPrice>{svc.price}</ServiceListItemPrice>
+              <a href={svc.link}>
+                <ServiceListItemPrice>{svc.price}</ServiceListItemPrice>
+              </a>
             </PriceContainer>
           </ServiceListItemDescription>
         </ServiceListItem>

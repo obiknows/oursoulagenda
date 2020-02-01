@@ -277,7 +277,7 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
                     post.frontmatter.tags.length > 0 && (
                       <>
                         <DateDivider>/</DateDivider>
-                        <Link to={`/tags/${_.kebabCase(post.frontmatter.tags[0])}/`}>
+                        <Link to={`blog/tags/${_.kebabCase(post.frontmatter.tags[0])}/`}>
                           {post.frontmatter.tags[0]}
                         </Link>
                       </>

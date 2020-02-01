@@ -1,3 +1,10 @@
+- id: Aïssatou
+  avatar: avatars/ghost.png
+  bio: The First Lady of Soul
+  twitter: TryGhost
+  facebook: ghost
+  website: https://ghost.org/
+  location: On a plane
 - id: Ghost
   avatar: avatars/ghost.png
   bio: The professional publishing platform

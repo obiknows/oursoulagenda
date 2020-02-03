@@ -1,10 +1,21 @@
 - id: Aïssatou
   avatar: avatars/ghost.png
   bio: The First Lady of Soul
+  instagram: TryGhost
   twitter: TryGhost
   facebook: ghost
   website: https://ghost.org/
   location: On a plane
+  # profile_image: img/alex-knight-326705-unsplash.jpg
+- id: Obinna
+  avatar: avatars/ghost.png
+  bio: Tha Young God
+  instagram: itsobinna
+  # twitter: TryGhost
+  # facebook: ghost
+  website: https://itsobinna.com/
+  location: On the land
+  # profile_image: img/alex-knight-326705-unsplash.jpg
 - id: Ghost
   avatar: avatars/ghost.png
   bio: The professional publishing platform
@@ -12,11 +23,4 @@
   facebook: ghost
   website: https://ghost.org/
   location: On a plane
-- id: Another Author
-  avatar: avatars/ghost.png
-  bio: This is another test author with a profile background image
-  twitter: TryGhost
-  facebook: ghost
-  website: https://ghost.org/
-  location: On a plane
-  profile_image: img/alex-knight-326705-unsplash.jpg
+

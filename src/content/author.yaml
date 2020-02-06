@@ -6,7 +6,7 @@
   facebook: ghost
   website: https://ghost.org/
   location: On a plane
-  # profile_image: img/alex-knight-326705-unsplash.jpg
+  profile_image: img/alex-knight-326705-unsplash.jpg
 - id: Obinna
   avatar: avatars/ghost.png
   bio: Tha Young God
@@ -15,7 +15,7 @@
   # facebook: ghost
   website: https://itsobinna.com/
   location: On the land
-  # profile_image: img/alex-knight-326705-unsplash.jpg
+  profile_image: img/alex-knight-326705-unsplash.jpg
 - id: Ghost
   avatar: avatars/ghost.png
   bio: The professional publishing platform
@@ -23,4 +23,5 @@
   facebook: ghost
   website: https://ghost.org/
   location: On a plane
+  profile_image: img/alex-knight-326705-unsplash.jpg
 

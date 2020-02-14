@@ -3,13 +3,13 @@ layout: post
 title: "Oakland Vegan Eats"
 author: Aïssatou
 tags: ["Eats", "Van Life"]
-image: img/oakland.jpg
-date: "2020-02-01"
+image: img/bareknuckle.jpg
+date: "2020-03-05"
 draft: false
 ---
 
 **THE TOWN!** Oakland is one of our favorite cities and was the place we called home before starting van life.
-There are a ton of vegan options in the area, and we're gonna give you a few of our favorites below.
+There are a ton of vegan options in the area, and we're sharing our favorite spots with you.
 
 ---
 
@@ -17,7 +17,7 @@ There are a ton of vegan options in the area, and we're gonna give you a few of 
 
 ![Bare Knuckle Pizza](https://media2.fdncms.com/eastbayexpress/imager/u/original/8271453/02_bareknucklepizza_andrialo.jpg)
 
-_The BEST VEGAN PIZZA._ No competition. Hands down. We've yet to have any other pizza that remotely compares to the level of deliciousness. They use a mozzarella from The Butcher's Son, a vegan restaurant nearby in Berkeley, which tastes just like the real thing. None of that Daiya cheese shreds like most other vegan pizza places. If you like New York style pizza and appreciate a good crust, then you gotta eat here. At $18 for a personal pizza, it'd definitely not the cheapest but its worth every penny.
+_The BEST VEGAN PIZZA._ No competition. Hands down. We've yet to have any other pizza that remotely compares to the level of deliciousness. They use a mozzarella from The Butcher's Son, a vegan restaurant nearby in Berkeley, which tastes just like the real thing. None of those nasty Daiya cheese shreds like most other vegan pizza places. If you like New York style pizza and appreciate a good crust, then you gotta eat here. At $18 for a personal pizza, it'd definitely not the cheapest but its very much worth every penny.
 
 #### Our Favorite Order
 
@@ -27,7 +27,7 @@ _The BEST VEGAN PIZZA._ No competition. Hands down. We've yet to have any other 
 
 #### Parking
 
-Street, tough to find during 9-5 work hours. Since it typically takes 20 minutes to get your pizza, we suggest placing a pick-up order and eating it by Lake Merritt.
+Street, tough to find during 9-5 work hours. Since it typically takes 20 minutes to get your pizza, we suggest placing a pick-up order and eating it by Lake Merritt. Check the restaurant hours before you visit as they are only open on some days. 
 
 #### Address
 
@@ -41,7 +41,7 @@ Oakland, CA 94607
 
 ![Cafe Romanat](https://images.squarespace-cdn.com/content/v1/588162feb8a79b4dcb04da9b/1485833541913-OPQCW8UM9DNJILC0PRUS/ke17ZwdGBToddI8pDm48kOggE0Ch6pMGalwtLMqzsSB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ufo5RWkg_J4of0jUNHaDHx6pZKBvpVYzidBWCapg0tuoMuEaB2HPGSYDV-11UTcW2g/meat+plate+2+ROMANAT.jpg?format=1500w)
 
-Our favorite Ethiopian spot. The food and the portions leave us full everytime and its the perfect comfort food for a chilly night. Make reservations for a 30 minute Ethiopian coffee ceremony for a one-of-a-kind experience.
+Our favorite Ethiopian spot. The food and the portions leave us full everytime and serve as the perfect comfort food for a chilly night. You can even make reservations for a 30 minute Ethiopian coffee ceremony for a one-of-a-kind experience.
 
 #### Our Favorite Order
 

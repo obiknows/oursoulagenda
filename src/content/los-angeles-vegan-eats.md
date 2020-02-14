@@ -8,7 +8,7 @@ date: "2020-02-02"
 draft: false
 ---
 
-Los Angeles is a vegan hotspot! There are endless amount of vegan restaurants and options, so it can be difficult to decide where to go. Below are our favorite vegan eats in the LA area that we’re sure you’ll love as well. If you end up visiting any of them, tag us on Instagram and let us know what you think!
+LA is a vegan paradise. There are endless amount of vegan restaurants and options, so it can be difficult to decide where to go. Below are our favorite vegan eats in the Los Angeles area that we’re sure you’ll love as well. If you end up visiting any of them, tag us on Instagram and let us know what you thought!
 
 ---
 
@@ -16,13 +16,13 @@ Los Angeles is a vegan hotspot! There are endless amount of vegan restaurants an
 
 ![Voodoo Vegan](./img/voodoo-vegan.jpg)
 
-One of our top vegan spots hands down! Serving up plant-based creole food, it’s a taste of The South in LA. Everything we’ve ever tasted from here is on point and delicious. The Mac and cheese is the best vegan Mac we’ve ever had and the “shrimp” is next level. Juicy and all that. Getcha some. 
+One of our top vegan spots nationwide hands down! Serving up plant-based creole food, it’s a taste of The South in LA. Everything we’ve ever tasted from here is on point and delicious. The Mac and cheese is the best vegan Mac we’ve ever had and the “shrimp” is next level. Juicy and all that. Getcha some. 
 
 #### Our Favorite Order
-Everything on the menu. These ladies be throwin' down wherever they go.
+Everything and anything on the menu. These ladies be throwin' down wherever they go.
 
-- Mac and Cheese. (Hands Down Best)
-- Anything with the shrimp. 
+- Mac and Cheese. (No Competition)
+- Anything with the shrimp. (A MUST Try)
 - Anything Else. There are no wrong options. 
 
 This is a pop-up restaurant that serves the LA area, find them on Instagram here [Voodoo Vegan (@voodooveganfood)](https://www.instagram.com/voodooveganfood/)
@@ -46,7 +46,7 @@ Check their [Instagram](https://www.instagram.com/voodooveganfood/) for their up
 
 We Believe the hype. 
 
-Monty’s is known for one thing and one thing only—**BURGERS**. And they are delicious. They use the Impossible Burger 2.0(definitely not something to eat everyday, or at all if you really health conscious) but it truly is the perfect place for when you are craving vegan junk food. We don't eat alot of sugar, but we had to make an exception because the brownies are flame too. We even took my non-vegan dad here and he loved it!
+Monty’s is known for one thing and one thing only—**BURGERS**. And they are delicious. They use the Impossible Burger 2.0(definitely not something to eat everyday, or at all if you're really health conscious) but it truly is the perfect place for when you are craving vegan junk food. We don't eat alot of white sugar, but we had to make an exception because even the cookies are flame too. We even took Aïssatou's non-vegan dad here and he loved it!
 
 #### Our Favorite Order 
 - Double with everything, tater tots with onion ailoi
@@ -69,12 +69,12 @@ Los Angeles, CA 90026
 
 ![Donut Friend](https://donutfriend.com/wp3/wp-content/uploads/2017/12/polar-berry-club-0573-sq.jpg)
 
-We’ve had a lot of vegan donuts and no other donuts have been so fluffy and delicious. They’ve got a million and one donuts to try and they even make custom ones for you. Donut Friend will make you a donut fiend. 
+We’ve had a lot of vegan donuts and no other donuts have been so fluffy and delicious. The best place to go if Krispy Kreme was your favorite spot before going vegan. They’ve got a million and one donuts to try and they even make custom ones for you. Donut Friend will for sure make you a donut fiend. 
 
 #### Our Favorite Order
 - Polar Berry Club (Lemon glazed berry donut)
 - Strawberry Lab (for strawberry shortcake lovers)
-- Bacon-182
+- Bacon-182 (for those who love sweet and salty combos)
 
 #### Parking 
 

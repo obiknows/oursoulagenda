@@ -3,12 +3,12 @@ layout: post
 title: "Los Angeles Vegan Eats"
 author: Aïssatou
 tags: ["Eats", "Van Life"]
-image: img/los-angeles.jpg
-date: "2020-02-01"
+image: img/donutfriend.jpg
+date: "2020-02-02"
 draft: false
 ---
 
-Short LA bio
+Los Angeles is a vegan hotspot! There are endless amount of vegan restaurants and options, so it can be difficult to decide where to go. Below are our favorite vegan eats in the LA area that we’re sure you’ll love as well. If you end up visiting any of them, tag us on Instagram and let us know what you think!
 
 ---
 
@@ -30,7 +30,7 @@ This is a pop-up restaurant that serves the LA area, find them on Instagram here
 
 #### Address
 
-We caught them at Vegan Exchange LA, in North Hollywood on a Sunday
+We caught them at Vegan Exchange LA, in North Hollywood on a Sunday.
 
 Vegan Exchange LA <br/>
 5300 Bakman Ave <br/>
@@ -44,7 +44,7 @@ Check their [Instagram](https://www.instagram.com/voodooveganfood/) for their up
 
 ![Monty's](https://cdn2.lamag.com/wp-content/uploads/sites/6/2018/08/Montys-burgers-and-tots-1-1068x712.jpg)
 
-WeBelieve the hype. 
+We Believe the hype. 
 
 Monty’s is known for one thing and one thing only—**BURGERS**. And they are delicious. They use the Impossible Burger 2.0(definitely not something to eat everyday, or at all if you really health conscious) but it truly is the perfect place for when you are craving vegan junk food. We don't eat alot of sugar, but we had to make an exception because the brownies are flame too. We even took my non-vegan dad here and he loved it!
 

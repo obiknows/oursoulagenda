@@ -50,7 +50,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Our Soul Agenda',
-  description: 'All things health, wealth, travel and in-between',
+  description: 'Sharing our thoughts from the road.',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/soul-globe.png',
   // logo: 'img/ghost-logo.png',

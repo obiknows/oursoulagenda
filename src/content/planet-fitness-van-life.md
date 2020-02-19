@@ -27,7 +27,7 @@ If you are van lifing with another person, the Black Card Planet Fitness members
   
 ---
 
-## Showers & Changing ROoms
+## Showers & Changing Rooms
 
 Every single Planet Fitness has at least 3 showers and 3 changing rooms, so you can take your time and do your cleaning routine in peace. If you do not go during peak hours (8-9am or 5-6:30pm) there is rarely a wait for the showers or changing rooms. 
 

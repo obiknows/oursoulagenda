@@ -4,7 +4,7 @@ title: "Oakland Vegan Eats"
 author: Aïssatou
 tags: ["Eats", "Van Life"]
 image: img/bareknuckle.jpg
-date: "2020-03-05"
+date: "2020-02-10"
 draft: false
 ---
 

@@ -46,7 +46,7 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav">
-          <Link to="/services">Services</Link>
+          <Link to="/about">About Us</Link>
           <Link to="/support-us">Support Us</Link>
           <Link to="/our-faves">Our Gear</Link>
           <OutboundLink href="https://oursoulagenda.bigcartel.com">Shop</OutboundLink>

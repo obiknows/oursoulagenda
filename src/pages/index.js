@@ -55,9 +55,9 @@ const IndexPage = () => (
         <Link to="/our-faves" style={LinkStyle}>
           <SoulLinkText>Our Faves</SoulLinkText>
         </Link>
-        <Link to="/services" style={LinkStyle}>
+        {/* <Link to="/services" style={LinkStyle}>
           <SoulLinkText>Services</SoulLinkText>
-        </Link>
+        </Link> */}
         <Link to="/blog" style={LinkStyle}>
           <SoulLinkText>Blog</SoulLinkText>
         </Link>

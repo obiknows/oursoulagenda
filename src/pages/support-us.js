@@ -86,7 +86,7 @@ const SupportUs = () => (
           {/* Venmo */}
           <div style={{ marginBottom: 40, textAlign: 'center' }}>
             <h2>Venmo</h2>
-            <h4>Use Venmo no problem</h4>
+            <h4>Use Venmo? No problem.</h4>
             {/* CashApp Button */}
             <div style={{ marginTop: 50, textAlign: 'center' }}>
               <div

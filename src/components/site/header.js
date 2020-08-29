@@ -36,7 +36,7 @@ export default function Header() {
 
   return (
     <header className="Header">
-      <Link to="/" id="brand" style={{marginTop: `auto`, marginBottom:`auto`, paddingTop: 5, width:`30vw` }}>
+      <Link to="/" id="brand" style={{marginTop: `auto`, marginBottom:`auto`, paddingTop: 5, width:`20vw` }}>
         <img src={soulglobe} className="Logo" alt="" style={{marginTop:`auto`, marginBottom:`auto`, width: `100%`, height: `auto`, }} />
       </Link>
       <CSSTransition
